@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EfCoreMastery.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4cf22924c4f2dd3b4d0c94c55e1dc289a3ae669f")]
 [assembly: System.Reflection.AssemblyProductAttribute("EfCoreMastery.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EfCoreMastery.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -110,6 +110,9 @@
 /home/user02/Projects/AI Projects/orm-efcore/src/EfCoreMastery.Api/obj/Debug/net10.0/ref/EfCoreMastery.Api.dll
 /home/user02/Projects/AI Projects/orm-efcore/src/EfCoreMastery.Api/bin/Debug/net10.0/EfCoreMastery.Api.staticwebassets.runtime.json
 /home/user02/Projects/AI Projects/orm-efcore/src/EfCoreMastery.Api/obj/Debug/net10.0/compressed/pdbdpzu8ao-{0}-vagikyz9qx-vagikyz9qx.gz
-/home/user02/Projects/AI Projects/orm-efcore/src/EfCoreMastery.Api/obj/Debug/net10.0/compressed/zm44e9vqhx-{0}-6ougytyu58-6ougytyu58.gz
 /home/user02/Projects/AI Projects/orm-efcore/src/EfCoreMastery.Api/obj/Debug/net10.0/compressed/h4f7ia25uy-{0}-dsq2ymg0va-dsq2ymg0va.gz
 /home/user02/Projects/AI Projects/orm-efcore/src/EfCoreMastery.Api/obj/Debug/net10.0/compressed/nwzwnrct35-{0}-jwjjvpmr1z-jwjjvpmr1z.gz
+/home/user02/Projects/AI Projects/orm-efcore/src/EfCoreMastery.Api/obj/Debug/net10.0/EfCoreMastery.Api.sourcelink.json
+/home/user02/Projects/AI Projects/orm-efcore/src/EfCoreMastery.Api/obj/Debug/net10.0/compressed/zm44e9vqhx-{0}-36xmmcbv7u-36xmmcbv7u.gz
+/home/user02/Projects/AI Projects/orm-efcore/src/EfCoreMastery.Api/obj/Debug/net10.0/compressed/d8d3qb2fhn-{0}-ax3nbsgtq2-ax3nbsgtq2.gz
+/home/user02/Projects/AI Projects/orm-efcore/src/EfCoreMastery.Api/obj/Debug/net10.0/compressed/qglwgfp4fd-{0}-a1cmxya2yn-a1cmxya2yn.gz

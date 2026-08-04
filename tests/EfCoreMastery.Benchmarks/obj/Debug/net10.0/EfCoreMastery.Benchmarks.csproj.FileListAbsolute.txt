@@ -167,3 +167,4 @@
 /home/user02/Projects/AI Projects/orm-efcore/tests/EfCoreMastery.Benchmarks/obj/Debug/net10.0/EfCoreMastery.Benchmarks.pdb
 /home/user02/Projects/AI Projects/orm-efcore/tests/EfCoreMastery.Benchmarks/obj/Debug/net10.0/EfCoreMastery.Benchmarks.genruntimeconfig.cache
 /home/user02/Projects/AI Projects/orm-efcore/tests/EfCoreMastery.Benchmarks/obj/Debug/net10.0/ref/EfCoreMastery.Benchmarks.dll
+/home/user02/Projects/AI Projects/orm-efcore/tests/EfCoreMastery.Benchmarks/obj/Debug/net10.0/EfCoreMastery.Benchmarks.sourcelink.json

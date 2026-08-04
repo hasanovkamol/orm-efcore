@@ -13,3 +13,4 @@
 /home/user02/Projects/AI Projects/orm-efcore/src/EfCoreMastery.Application/obj/Debug/net10.0/refint/EfCoreMastery.Application.dll
 /home/user02/Projects/AI Projects/orm-efcore/src/EfCoreMastery.Application/obj/Debug/net10.0/EfCoreMastery.Application.pdb
 /home/user02/Projects/AI Projects/orm-efcore/src/EfCoreMastery.Application/obj/Debug/net10.0/ref/EfCoreMastery.Application.dll
+/home/user02/Projects/AI Projects/orm-efcore/src/EfCoreMastery.Application/obj/Debug/net10.0/EfCoreMastery.Application.sourcelink.json

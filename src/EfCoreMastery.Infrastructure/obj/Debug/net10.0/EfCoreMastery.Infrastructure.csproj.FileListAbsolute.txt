@@ -17,3 +17,4 @@
 /home/user02/Projects/AI Projects/orm-efcore/src/EfCoreMastery.Infrastructure/obj/Debug/net10.0/EfCoreMastery.Infrastructure.pdb
 /home/user02/Projects/AI Projects/orm-efcore/src/EfCoreMastery.Infrastructure/obj/Debug/net10.0/EfCoreMastery.Infrastructure.genruntimeconfig.cache
 /home/user02/Projects/AI Projects/orm-efcore/src/EfCoreMastery.Infrastructure/obj/Debug/net10.0/ref/EfCoreMastery.Infrastructure.dll
+/home/user02/Projects/AI Projects/orm-efcore/src/EfCoreMastery.Infrastructure/obj/Debug/net10.0/EfCoreMastery.Infrastructure.sourcelink.json

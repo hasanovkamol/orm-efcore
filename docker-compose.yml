@@ -1,0 +1,48 @@
+services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: efcore_sqlserver
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=YourSecurePass123!
+    ports:
+      - "1434:1433"
+    healthcheck:
+      test: ["CMD-SHELL", "/opt/mssql-tools18/bin/sqlcmd -S localhost -U sa -P YourSecurePass123! -C -Q 'SELECT 1' || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - efcore-net
+
+  api:
+    build:
+      context: .
+      dockerfile: src/EfCoreMastery.Api/Dockerfile
+    container_name: efcore_api
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__DefaultConnection=Server=sqlserver,1433;Database=EfCoreMasteryDb;User Id=sa;Password=YourSecurePass123!;TrustServerCertificate=True;
+    ports:
+      - "5050:8080"
+    depends_on:
+      sqlserver:
+        condition: service_healthy
+    networks:
+      - efcore-net
+
+  client:
+    build:
+      context: .
+      dockerfile: src/EfCoreMasteryClient/Dockerfile
+    container_name: efcore_angular_client
+    ports:
+      - "4205:80"
+    depends_on:
+      - api
+    networks:
+      - efcore-net
+
+networks:
+  efcore-net:
+    driver: bridge

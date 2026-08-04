@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/EfCoreMastery.Api/EfCoreMastery.Api.csproj" />
+    <Project Path="src/EfCoreMastery.Application/EfCoreMastery.Application.csproj" />
+    <Project Path="src/EfCoreMastery.Domain/EfCoreMastery.Domain.csproj" />
+    <Project Path="src/EfCoreMastery.Infrastructure/EfCoreMastery.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/EfCoreMastery.Benchmarks/EfCoreMastery.Benchmarks.csproj" />
+  </Folder>
+</Solution>

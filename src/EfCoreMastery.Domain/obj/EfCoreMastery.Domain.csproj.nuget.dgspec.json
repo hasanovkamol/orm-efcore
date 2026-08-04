@@ -46,14 +46,14 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "centralPackageVersions": {
-            "BenchmarkDotNet": "0.13.12",
-            "Dapper": "2.1.35",
-            "EFCore.BulkExtensions": "8.0.4",
-            "Microsoft.EntityFrameworkCore.Design": "8.0.13",
-            "Microsoft.EntityFrameworkCore.InMemory": "8.0.13",
-            "Microsoft.EntityFrameworkCore.SqlServer": "8.0.13",
-            "Microsoft.EntityFrameworkCore.Tools": "8.0.13",
-            "Swashbuckle.AspNetCore": "6.5.0"
+            "BenchmarkDotNet": "0.15.8",
+            "Dapper": "2.1.79",
+            "EFCore.BulkExtensions": "10.0.1",
+            "Microsoft.EntityFrameworkCore.Design": "10.0.9",
+            "Microsoft.EntityFrameworkCore.InMemory": "10.0.9",
+            "Microsoft.EntityFrameworkCore.SqlServer": "10.0.9",
+            "Microsoft.EntityFrameworkCore.Tools": "10.0.9",
+            "Swashbuckle.AspNetCore": "10.2.3"
           },
           "imports": [
             "net461",

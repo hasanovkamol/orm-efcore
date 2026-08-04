@@ -34,23 +34,13 @@ builder.Services.AddSingleton<AuditSaveChangesInterceptor>();
 builder.Services.AddSingleton<SoftDeleteInterceptor>();
 builder.Services.AddSingleton<QueryLoggingInterceptor>();
 
-// Services & Repositories (ITenantService is Singleton to work with IDbContextFactory)
+// Services & Repositories
 builder.Services.AddSingleton<ITenantService, MockTenantService>();
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 
-// DbContext & DbContextFactory configuration
+// DbContext & DbContextFactory (AddDbContextFactory registers both IDbContextFactory and AppDbContext)
 builder.Services.AddDbContextFactory<AppDbContext>((sp, options) =>
-{
-    var auditInterceptor = sp.GetRequiredService<AuditSaveChangesInterceptor>();
-    var softDeleteInterceptor = sp.GetRequiredService<SoftDeleteInterceptor>();
-    var queryLoggingInterceptor = sp.GetRequiredService<QueryLoggingInterceptor>();
-
-    options.UseInMemoryDatabase("EfCoreMasteryDb")
-           .AddInterceptors(auditInterceptor, softDeleteInterceptor, queryLoggingInterceptor);
-});
-
-builder.Services.AddDbContext<AppDbContext>((sp, options) =>
 {
     var auditInterceptor = sp.GetRequiredService<AuditSaveChangesInterceptor>();
     var softDeleteInterceptor = sp.GetRequiredService<SoftDeleteInterceptor>();

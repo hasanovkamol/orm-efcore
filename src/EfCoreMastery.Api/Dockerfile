@@ -2,6 +2,9 @@
 FROM mcr.microsoft.com/dotnet/sdk:10.0-preview AS build
 WORKDIR /src
 
+# Copy Directory.Packages.props for Central Package Management (CPM)
+COPY ["Directory.Packages.props", "./"]
+
 # Copy project files
 COPY ["src/EfCoreMastery.Domain/EfCoreMastery.Domain.csproj", "EfCoreMastery.Domain/"]
 COPY ["src/EfCoreMastery.Application/EfCoreMastery.Application.csproj", "EfCoreMastery.Application/"]

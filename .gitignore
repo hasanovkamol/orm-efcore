@@ -1,0 +1,44 @@
+# ==========================================
+# .NET / C# Build Artifacts
+# ==========================================
+bin/
+obj/
+out/
+publish/
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+*.userprefs
+
+# ==========================================
+# IDE & Editor Settings (Rider / VS / VS Code)
+# ==========================================
+.idea/
+.vs/
+.vscode/
+*.csproj.user
+
+# Rider specifics
+shelf/
+workspace.xml
+httpRequests/
+dataSources/
+dataSources.local.xml
+
+# ==========================================
+# Node.js & Angular Client
+# ==========================================
+node_modules/
+dist/
+.angular/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ==========================================
+# Docker & OS Temporary Files
+# ==========================================
+.DS_Store
+Thumbs.db
+*.log

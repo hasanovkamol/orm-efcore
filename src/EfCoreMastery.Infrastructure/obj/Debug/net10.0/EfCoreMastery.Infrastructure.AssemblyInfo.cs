@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EfCoreMastery.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+031cb45ce73b36afade47e681d72384c1600a03a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+81cecf553d779ade34d0651668fced7a3ba8f29f")]
 [assembly: System.Reflection.AssemblyProductAttribute("EfCoreMastery.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EfCoreMastery.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -4,18 +4,18 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <!-- EF Core & Database Packages (Latest 8.0.13 / 8.0.4 releases) -->
-    <PackageVersion Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.13" />
-    <PackageVersion Include="Microsoft.EntityFrameworkCore.InMemory" Version="8.0.13" />
-    <PackageVersion Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.13" />
-    <PackageVersion Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.13" />
-    <PackageVersion Include="EFCore.BulkExtensions" Version="8.0.4" />
-    <PackageVersion Include="Dapper" Version="2.1.35" />
+    <!-- EF Core & Database Packages (.NET 10 / EF Core 10) -->
+    <PackageVersion Include="Microsoft.EntityFrameworkCore.SqlServer" Version="10.0.9" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore.InMemory" Version="10.0.9" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.9" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore.Tools" Version="10.0.9" />
+    <PackageVersion Include="EFCore.BulkExtensions" Version="10.0.1" />
+    <PackageVersion Include="Dapper" Version="2.1.79" />
 
     <!-- Web API & Documentation -->
-    <PackageVersion Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+    <PackageVersion Include="Swashbuckle.AspNetCore" Version="10.2.3" />
 
     <!-- Benchmarking -->
-    <PackageVersion Include="BenchmarkDotNet" Version="0.13.12" />
-  </ItemGroup>
+    <PackageVersion Include="BenchmarkDotNet" Version="0.15.8" />
+</ItemGroup>
 </Project>

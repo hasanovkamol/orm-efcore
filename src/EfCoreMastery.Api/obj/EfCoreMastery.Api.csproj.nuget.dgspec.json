@@ -57,7 +57,7 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.12, )",
+              "version": "[8.0.13, )",
               "versionCentrallyManaged": true
             },
             "Swashbuckle.AspNetCore": {
@@ -70,10 +70,10 @@
             "BenchmarkDotNet": "0.13.12",
             "Dapper": "2.1.35",
             "EFCore.BulkExtensions": "8.0.4",
-            "Microsoft.EntityFrameworkCore.Design": "8.0.12",
-            "Microsoft.EntityFrameworkCore.InMemory": "8.0.12",
-            "Microsoft.EntityFrameworkCore.SqlServer": "8.0.12",
-            "Microsoft.EntityFrameworkCore.Tools": "8.0.12",
+            "Microsoft.EntityFrameworkCore.Design": "8.0.13",
+            "Microsoft.EntityFrameworkCore.InMemory": "8.0.13",
+            "Microsoft.EntityFrameworkCore.SqlServer": "8.0.13",
+            "Microsoft.EntityFrameworkCore.Tools": "8.0.13",
             "Swashbuckle.AspNetCore": "6.5.0"
           },
           "imports": [
@@ -562,10 +562,10 @@
             "BenchmarkDotNet": "0.13.12",
             "Dapper": "2.1.35",
             "EFCore.BulkExtensions": "8.0.4",
-            "Microsoft.EntityFrameworkCore.Design": "8.0.12",
-            "Microsoft.EntityFrameworkCore.InMemory": "8.0.12",
-            "Microsoft.EntityFrameworkCore.SqlServer": "8.0.12",
-            "Microsoft.EntityFrameworkCore.Tools": "8.0.12",
+            "Microsoft.EntityFrameworkCore.Design": "8.0.13",
+            "Microsoft.EntityFrameworkCore.InMemory": "8.0.13",
+            "Microsoft.EntityFrameworkCore.SqlServer": "8.0.13",
+            "Microsoft.EntityFrameworkCore.Tools": "8.0.13",
             "Swashbuckle.AspNetCore": "6.5.0"
           },
           "imports": [
@@ -907,10 +907,10 @@
             "BenchmarkDotNet": "0.13.12",
             "Dapper": "2.1.35",
             "EFCore.BulkExtensions": "8.0.4",
-            "Microsoft.EntityFrameworkCore.Design": "8.0.12",
-            "Microsoft.EntityFrameworkCore.InMemory": "8.0.12",
-            "Microsoft.EntityFrameworkCore.SqlServer": "8.0.12",
-            "Microsoft.EntityFrameworkCore.Tools": "8.0.12",
+            "Microsoft.EntityFrameworkCore.Design": "8.0.13",
+            "Microsoft.EntityFrameworkCore.InMemory": "8.0.13",
+            "Microsoft.EntityFrameworkCore.SqlServer": "8.0.13",
+            "Microsoft.EntityFrameworkCore.Tools": "8.0.13",
             "Swashbuckle.AspNetCore": "6.5.0"
           },
           "imports": [
@@ -1270,24 +1270,24 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.12, )",
+              "version": "[8.0.13, )",
               "versionCentrallyManaged": true
             },
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
-              "version": "[8.0.12, )",
+              "version": "[8.0.13, )",
               "versionCentrallyManaged": true
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[8.0.12, )",
+              "version": "[8.0.13, )",
               "versionCentrallyManaged": true
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.12, )",
+              "version": "[8.0.13, )",
               "versionCentrallyManaged": true
             }
           },
@@ -1295,10 +1295,10 @@
             "BenchmarkDotNet": "0.13.12",
             "Dapper": "2.1.35",
             "EFCore.BulkExtensions": "8.0.4",
-            "Microsoft.EntityFrameworkCore.Design": "8.0.12",
-            "Microsoft.EntityFrameworkCore.InMemory": "8.0.12",
-            "Microsoft.EntityFrameworkCore.SqlServer": "8.0.12",
-            "Microsoft.EntityFrameworkCore.Tools": "8.0.12",
+            "Microsoft.EntityFrameworkCore.Design": "8.0.13",
+            "Microsoft.EntityFrameworkCore.InMemory": "8.0.13",
+            "Microsoft.EntityFrameworkCore.SqlServer": "8.0.13",
+            "Microsoft.EntityFrameworkCore.Tools": "8.0.13",
             "Swashbuckle.AspNetCore": "6.5.0"
           },
           "imports": [

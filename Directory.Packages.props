@@ -1,0 +1,21 @@
+<Project>
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- EF Core & Database Packages -->
+    <PackageVersion Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.12" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore.InMemory" Version="8.0.12" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.12" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.12" />
+    <PackageVersion Include="EFCore.BulkExtensions" Version="8.0.4" />
+    <PackageVersion Include="Dapper" Version="2.1.35" />
+
+    <!-- Web API & Documentation -->
+    <PackageVersion Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+
+    <!-- Benchmarking -->
+    <PackageVersion Include="BenchmarkDotNet" Version="0.13.12" />
+  </ItemGroup>
+</Project>

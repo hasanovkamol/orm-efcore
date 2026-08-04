@@ -13,6 +13,7 @@
         "packagesPath": "/home/user02/.nuget/packages/",
         "outputPath": "/home/user02/Projects/AI Projects/orm-efcore/src/EfCoreMastery.Application/obj/",
         "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
         "configFilePaths": [
           "/home/user02/.nuget/NuGet/NuGet.Config"
         ],
@@ -48,6 +49,16 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
+          "centralPackageVersions": {
+            "BenchmarkDotNet": "0.13.12",
+            "Dapper": "2.1.35",
+            "EFCore.BulkExtensions": "8.0.4",
+            "Microsoft.EntityFrameworkCore.Design": "8.0.12",
+            "Microsoft.EntityFrameworkCore.InMemory": "8.0.12",
+            "Microsoft.EntityFrameworkCore.SqlServer": "8.0.12",
+            "Microsoft.EntityFrameworkCore.Tools": "8.0.12",
+            "Swashbuckle.AspNetCore": "6.5.0"
+          },
           "imports": [
             "net461",
             "net462",
@@ -351,6 +362,7 @@
         "packagesPath": "/home/user02/.nuget/packages/",
         "outputPath": "/home/user02/Projects/AI Projects/orm-efcore/src/EfCoreMastery.Domain/obj/",
         "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
         "configFilePaths": [
           "/home/user02/.nuget/NuGet/NuGet.Config"
         ],
@@ -382,6 +394,16 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
+          "centralPackageVersions": {
+            "BenchmarkDotNet": "0.13.12",
+            "Dapper": "2.1.35",
+            "EFCore.BulkExtensions": "8.0.4",
+            "Microsoft.EntityFrameworkCore.Design": "8.0.12",
+            "Microsoft.EntityFrameworkCore.InMemory": "8.0.12",
+            "Microsoft.EntityFrameworkCore.SqlServer": "8.0.12",
+            "Microsoft.EntityFrameworkCore.Tools": "8.0.12",
+            "Swashbuckle.AspNetCore": "6.5.0"
+          },
           "imports": [
             "net461",
             "net462",
@@ -685,6 +707,7 @@
         "packagesPath": "/home/user02/.nuget/packages/",
         "outputPath": "/home/user02/Projects/AI Projects/orm-efcore/src/EfCoreMastery.Infrastructure/obj/",
         "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
         "configFilePaths": [
           "/home/user02/.nuget/NuGet/NuGet.Config"
         ],
@@ -726,26 +749,48 @@
           "dependencies": {
             "Dapper": {
               "target": "Package",
-              "version": "[2.1.28, )"
+              "version": "[2.1.35, )",
+              "versionCentrallyManaged": true
             },
             "EFCore.BulkExtensions": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.4, )",
+              "versionCentrallyManaged": true
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.12, )",
+              "versionCentrallyManaged": true
             },
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.12, )",
+              "versionCentrallyManaged": true
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.12, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.12, )",
+              "versionCentrallyManaged": true
             }
+          },
+          "centralPackageVersions": {
+            "BenchmarkDotNet": "0.13.12",
+            "Dapper": "2.1.35",
+            "EFCore.BulkExtensions": "8.0.4",
+            "Microsoft.EntityFrameworkCore.Design": "8.0.12",
+            "Microsoft.EntityFrameworkCore.InMemory": "8.0.12",
+            "Microsoft.EntityFrameworkCore.SqlServer": "8.0.12",
+            "Microsoft.EntityFrameworkCore.Tools": "8.0.12",
+            "Swashbuckle.AspNetCore": "6.5.0"
           },
           "imports": [
             "net461",
@@ -1050,6 +1095,7 @@
         "packagesPath": "/home/user02/.nuget/packages/",
         "outputPath": "/home/user02/Projects/AI Projects/orm-efcore/tests/EfCoreMastery.Benchmarks/obj/",
         "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
         "configFilePaths": [
           "/home/user02/.nuget/NuGet/NuGet.Config"
         ],
@@ -1094,8 +1140,19 @@
           "dependencies": {
             "BenchmarkDotNet": {
               "target": "Package",
-              "version": "[0.13.12, )"
+              "version": "[0.13.12, )",
+              "versionCentrallyManaged": true
             }
+          },
+          "centralPackageVersions": {
+            "BenchmarkDotNet": "0.13.12",
+            "Dapper": "2.1.35",
+            "EFCore.BulkExtensions": "8.0.4",
+            "Microsoft.EntityFrameworkCore.Design": "8.0.12",
+            "Microsoft.EntityFrameworkCore.InMemory": "8.0.12",
+            "Microsoft.EntityFrameworkCore.SqlServer": "8.0.12",
+            "Microsoft.EntityFrameworkCore.Tools": "8.0.12",
+            "Swashbuckle.AspNetCore": "6.5.0"
           },
           "imports": [
             "net461",

@@ -2,7 +2,13 @@
 # .NET / C# Build Artifacts
 # ==========================================
 bin/
+[Bb]in/
+**/bin/
+**/[Bb]in/
 obj/
+[Oo]bj/
+**/obj/
+**/[Oo]bj/
 out/
 publish/
 *.user
@@ -42,3 +48,8 @@ yarn-error.log*
 .DS_Store
 Thumbs.db
 *.log
+
+# ==========================================
+# Graphify Artifacts
+# ==========================================
+graphify-out/

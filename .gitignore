@@ -38,6 +38,8 @@ dataSources.local.xml
 node_modules/
 dist/
 .angular/
+wwwroot/
+**/wwwroot/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*

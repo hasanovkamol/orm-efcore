@@ -1,0 +1,8 @@
+node_modules/
+.angular/
+dist/
+bin/
+obj/
+wwwroot/
+**/wwwroot/
+*.spec.ts
